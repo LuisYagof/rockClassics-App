@@ -1,0 +1,33 @@
+
+<mat-card>
+    <mat-card-header>
+        <mat-card-title> {{ band.name }} </mat-card-title>
+        <mat-card-subtitle> {{ band.genre }} </mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-image [src]="band | imagen">
+
+    <mat-card-content>
+        <h3>{{ band.label }}</h3>
+        <p>
+            <strong>Actividad: </strong> {{ band.activity }}
+            <br>
+            <strong>Origen: </strong> {{ band.origin }}
+        </p>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button mat-button 
+                color="warn"
+                [routerLink]="['', band.id ]">
+            Leer más...
+        </button>
+
+        <button mat-button 
+                color="info"
+                [routerLink]="['/editar', band.id ]">
+            Editar
+        </button>
+    </mat-card-actions>
+
+</mat-card>

@@ -1,0 +1,92 @@
+{
+  "bands": [
+    {
+      "id": "rolling-stones",
+      "name": "The Rolling Stones",
+      "label": "Decca",
+      "genre": "Rock",
+      "activity": "1962 - presente",
+      "origin": "London, UK",
+      "members": "Bill Wyman (1962 – 1993), Brian Jones (1962 – 1969), Charlie Watts (1963 – presente), Dick Taylor (1962 – 1962), Ian Stewart (1962 – 1985), Keith Richards (1962 – presente), Mick Avory (1962 – 1962), Mick Jagger (1962 – presente), Mick Taylor (1969 – 1974), Ron Wood (1975 – presente), Tony Chapman (1962 – 1963)",
+      "alt_img": "https://los40.com/los40/imagenes/2020/12/14/los40classic/1607959683_980414_1607959788_gigante_normal.jpg",
+      "video": "https://www.youtube.com/embed/Jwtyn-L-2gQ"
+    },
+    {
+      "id": "led-zeppelin",
+      "name": "Led Zeppelin",
+      "label": "Atlantic",
+      "genre": "Hard Rock",
+      "activity": "1968 – 1980",
+      "origin": "London, UK",
+      "members": "Jimmy Page, John Bonham, John Paul Jones, Robert Plant",
+      "alt_img": "https://static.dw.com/image/45095573_401.jpg",
+      "video": "https://www.youtube.com/embed/HQmmM_qwG4k"
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "label": "EMI",
+      "genre": "Glam Rock",
+      "activity": "1970 - presente",
+      "origin": "London, UK",
+      "members": "Barry Mitchell (1970 – 1971), Brian May (1970 – presente), Doug Bogie (1971 – 1971), Freddie Mercury (1970 – 1991), John Deacon (1971 – 1997), Mike Grose (1970 – 1970), Roger Taylor (1970 – presente)",
+      "alt_img": "https://elpais.com/elpais/imagenes/2018/11/08/icon/1541671935_509035_1541708505_noticia_fotograma.jpg",
+      "video": "https://www.youtube.com/embed/Z3w5gVM_4y8"
+    },
+    {
+      "id": "pink-floyd",
+      "name": "Pink Floyd",
+      "label": "EMI Columbia",
+      "genre": "Progressive Rock",
+      "activity": "1965 – 2014",
+      "origin": "London, UK",
+      "members": "David Gilmour (1968 – presente), Nick Mason (1965 – presente), Richard Wright (1965 – 2008), Roger Waters (1965 – 1985), Syd Barrett (1965 – 1968)",
+      "alt_img": "https://i1.wp.com/hipertextual.com/wp-content/uploads/2014/10/pink-floyd-scaled.jpeg?fit=1200%2C802&ssl=1",
+      "video": "https://www.youtube.com/embed/YR5ApYxkU-U"
+    },
+    {
+      "id": "deep-purple",
+      "name": "Deep Purple",
+      "label": "Tetragrammaton",
+      "genre": "Hard Rock",
+      "activity": "1968 - presente",
+      "origin": "Hertford, UK",
+      "members": " David Coverdale (1973 – 1976), Don Airey (2002 – presente), Glenn Hughes (1973 – 1976), Ian Gillan (1969 – presente), Ian Paice (1968 – presente), Joe Lynn Turner (1989 – 1992), Joe Satriani (1993 – 1994), Jon Lord (1968 – 2002), Nick Simper (1968 – 1969), Ritchie Blackmore (1968 – 1993), Rod Evans (1968 – 1969), Roger Glover (1969 – presente), Steve Morse (1994 – presente), Tommy Bolin (1975 – 1976),",
+      "alt_img": "https://lacarnemagazine.com/wp-content/uploads/2020/11/deep-purple-web-1200x675.jpg",
+      "video": "https://www.youtube.com/embed/gZ_kez7WVUU"
+    },
+    {
+      "id": "ac-dc",
+      "name": "AC/DC",
+      "label": "Albert",
+      "genre": "Hard Rock",
+      "activity": "1973 – presente",
+      "origin": "Sydney, New South Wales, Australia",
+      "members": "Angus Young (1973 – presente), Bon Scott (1974 – 1980), Brian Johnson (1980 – presente), Chris Slade (1989 – presente), Cliff Williams (1977 – presente), Colin Burgess (1973 – 1974), Dave Evans (1973 – 1974), Larry van Kriedt (1973 – 1975), Malcolm Young (1973 – 2014), Mark Evans (1975 – 1977), Noel Taylor (1974 – 1974), Paul Matters (1973 – 1975), Peter Clack (1974 – 1975), Phil Rudd (1975 – 2015), Rob Bailey (1973 – 1974), Simon Wright (1984 – 1989), Stevie Young (2014 – 2014)",
+      "alt_img": "https://as.com/epik/imagenes/2020/05/15/portada/1589562082_721975_1589562679_noticia_normal.jpg",
+      "video": "https://www.youtube.com/embed/pAgnJDJN4VA"
+    },
+    {
+      "id": "ramones",
+      "name": "Ramones",
+      "label": "Sire/Warner Bros",
+      "genre": "Punk Rock",
+      "activity": "1974 – 1996",
+      "origin": "New York, USA",
+      "members": "C.J. Ramone (1989 – 1996), Dee Dee Ramone (1974 – 1989), Elvis Ramone (1987 – 1987), Joey Ramone (1974 – 1996), Johnny Ramone (1974 – 1996), Marky Ramone (1978 – 1996), Richie Ramone (1983 – 1987), Tommy Ramone (1974 – 1978)",
+      "alt_img": "https://www.rollingstone.com.mx/wp-content/uploads/2020/05/RAMONES.png",
+      "video": "https://www.youtube.com/embed/bm51ihfi1p4"
+    },
+    {
+      "id": "kiss",
+      "name": "Kiss",
+      "label": "Casablanca",
+      "genre": "Hard Rock",
+      "activity": "1973 – presente",
+      "origin": "Queens, New York, USA",
+      "members": "Ace Frehley (1973 – 2002), Bruce Kulick (1984 – 1996), Eric Carr (1980 – 1991), Eric Singer (1991 – presente), Gene Simmons (1973 – presente), Mark St. John (1984 – 1984), Paul Stanley (1973 – presente), Peter Criss (1973 – 2004), Tommy Thayer (2002 – presente), Vinnie Vincent (1982 – 1984)",
+      "alt_img": "https://www.radioacktiva.com/wp-content/uploads/2020/07/KISS-Rock-and-Roll-All-Nite-Tocada-2213-veces-e1603734975103.png",
+      "video": "https://www.youtube.com/embed/EFMD7Usflbg"
+    }
+  ]
+}

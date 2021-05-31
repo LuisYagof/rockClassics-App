@@ -1,0 +1,38 @@
+<div fxLayout="column">
+  <div>
+    <h1>Buscador de bandas</h1>
+    <mat-divider></mat-divider>
+  </div>
+
+  <div fxLayout="column">
+    <h3>Buscador</h3>
+
+    <mat-form-field>
+      <input type="text" placeholder="Busca una banda" aria-label="Number" matInput [(ngModel)]="termino"
+        [matAutocomplete]="auto" (input)="buscando()">
+
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="opcionSeleccionada( $event )">
+
+        <mat-option *ngFor="let band of bands" [value]="band">
+          {{ band.name }}
+        </mat-option>
+
+        <mat-option value="" *ngIf="bands.length === 0 && termino.trim().length > 0">
+          No se encontró nada con el término {{ termino }}
+        </mat-option>
+
+      </mat-autocomplete>
+
+    </mat-form-field>
+
+  </div>
+<!-- 
+  <div>
+    <pre>{{ bandSeleccionado | json }}</pre>
+  </div> -->
+
+  <div *ngIf="bandSeleccionado">
+    <app-band-tarjeta [band]="bandSeleccionado"></app-band-tarjeta>
+  </div>
+
+</div>

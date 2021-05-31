@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'rockClassics-App'`, () => {
+  it(`should have as title 'heroesApp'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('rockClassics-App');
+    expect(app.title).toEqual('heroesApp');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('rockClassics-App app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('heroesApp app is running!');
   });
 });

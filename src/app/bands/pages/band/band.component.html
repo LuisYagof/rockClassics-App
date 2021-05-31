@@ -1,0 +1,50 @@
+<mat-grid-list cols="1" *ngIf="!band; else divBand">
+    <mat-grid-tile>
+        <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<ng-template #divBand style="height: fit-content;">
+
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="30px">
+
+        <div fxFlex="50">
+            <h1>{{ band.name }}</h1>
+            <mat-divider></mat-divider>
+            <br>
+            <img [src]="band | imagen">
+        </div>
+
+        <div fxFlex="50">
+            <h1>{{ band.genre }}</h1>
+            <mat-divider></mat-divider>
+            <br>
+
+            <p> <strong>Sello:&nbsp;</strong> {{ band.label }} </p>
+            <br>
+            <p> <strong>Origen:&nbsp;</strong>{{ band.origin }} </p>
+            <br>
+            <p> <strong>Actividad:&nbsp;</strong>{{ band.activity }} </p>
+            <br>
+            <p> <strong>Miembros:&nbsp;</strong>{{ band.members }} </p>
+            <br>
+
+        </div>
+
+    </div>
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="30px"
+        style="margin-top: 10px; display: flex; align-items: center; justify-content: center;">
+
+        <!-- <div fxFlex="99"> -->
+        <iframe width="360px" height="100%" [src]="band.video | safe" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture"
+            allowfullscreen controls="0"></iframe>
+        <!-- </div> -->
+    </div>
+
+    <br>
+    <button mat-button color="warn" (click)="regresar()">
+        Volver
+    </button>
+    
+</ng-template>
