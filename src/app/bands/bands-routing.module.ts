@@ -7,7 +7,7 @@ import { BandComponent } from './pages/band/band.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { HomeComponent } from './pages/home/home.component';
 
-const rutas: Routes = [
+const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
@@ -16,7 +16,7 @@ const rutas: Routes = [
       { path: 'agregar', component: AgregarComponent },
       { path: 'editar/:id', component: AgregarComponent },
       { path: 'buscar', component: BuscarComponent },
-      { path: ':id', component: BandComponent },
+      { path: 'bandas/:id', component: BandComponent },
       { path: '**', redirectTo: 'listado' }
     ]
   }
@@ -26,7 +26,7 @@ const rutas: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forChild( rutas )
+    RouterModule.forChild( routes )
   ],
   exports: [
     RouterModule
